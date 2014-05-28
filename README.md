@@ -4,20 +4,18 @@ This application consists of Projects that belong to Users.
 
 Users are able to share their Projects with other Users.
 
-Users are able to see both their projects, and projects that have been shared with them.
-
 ## Exercise 1 - Model test
-Implement a share instance method in the Project class that takes a user or users and shares
-the project with them. Tests should ensure that a user
-can see shared projects, and other users can not see the project if the project was not shared with them.
+Implement a share instance method in the Project class. Tests should ensure that a user
+can see shared projects, but other users should not see the project if the project was not 
+shared with them.
 
 
 ## Exercise 2 - Controller test
-Implement a controller test with a share action in the project controller
+Implement a controller test with a share action in the projects controller
 
 
 ## Exercise 3 - Feature test
-Implement a feature tests that:
+Implement a feature test that:
 
 1. logs in user (user1)
 2. visits the project detail view
@@ -30,6 +28,10 @@ Implement a feature tests that:
 
 ## Test Coverage
 Testing is at 100%. As you add these features, keep the testing at 100%
+
+### Testing Gems
+This application uses Fabrication for fabricators, rspec for testing, and optionally you can 
+use cucumber instead of rspec features.
 
 
 
