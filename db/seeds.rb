@@ -3,5 +3,6 @@
 #
 
 10.times.each_with_index do |i|
-  User.create(:email => "user_#{i+1}@sharing.com", :full_name => "User_#{i+1}", :password => "password")
+  user = User.create(:email => "user_#{i+1}@sharing.com", :full_name => "User_#{i+1}", :password => "password")
+  user.projects.create(:name => Faker::Lorem.words(3))
 end

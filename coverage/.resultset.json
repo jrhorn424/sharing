@@ -135,6 +135,8 @@
       ],
       "/Users/amorales/rails/sharing/app/models/project.rb": [
         1,
+        null,
+        1,
         1,
         null,
         null
@@ -146,9 +148,10 @@
         null,
         1,
         null,
+        1,
         null
       ]
     },
-    "timestamp": 1401238821
+    "timestamp": 1401239312
   }
 }

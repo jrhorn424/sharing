@@ -33,6 +33,12 @@ Testing is at 100%. As you add these features, keep the testing at 100%
 This application uses Fabrication for fabricators, rspec for testing, and optionally you can 
 use cucumber instead of rspec features.
 
+### Front End
+Run the rake db:seed to seed the database with users and projects.
+Users are user_1@sharing.com, password: "password" for all of them.
+Users go from user_1 to user_10.
+
+
 
 
 
