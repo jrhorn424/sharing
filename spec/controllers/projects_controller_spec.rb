@@ -20,6 +20,12 @@ require 'spec_helper'
 
 describe ProjectsController do
 
+  let(:user) { Fabricate(:user) }
+
+  before do
+    session[:user_id] = user.id
+  end
+
   # This should return the minimal set of attributes required to create a valid
   # Project. As you add validations to Project, be sure to
   # adjust the attributes here as well.
