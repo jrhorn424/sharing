@@ -1,4 +1,6 @@
 
+%div.errors
+  = flash[:error]
 = form_tag sessions_path, :class => 'sign_in', :method => :post do |f|
   %header
     %h1 Sign in

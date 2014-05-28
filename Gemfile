@@ -33,6 +33,7 @@ group :test, :development do
 end
 
 group :test do
+  gem 'fivemat'
   gem 'debugger'
   gem 'cucumber-rails', :require => false
   gem 'guard-cucumber'
@@ -41,6 +42,7 @@ group :test do
   gem 'shoulda-matchers'
   gem 'capybara'
   gem 'simplecov'
+  gem 'selenium-webdriver'
 end
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
