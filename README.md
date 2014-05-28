@@ -15,7 +15,7 @@ Add a method to Project class called share_with, with the following signature.
 project.share_with(users)
 ```
 
-Add a method for users to get the shared projects, and all visible projects.
+Add the following methods for users to have access to shared projects.
 
 ```
 user.projects
@@ -23,7 +23,7 @@ user.shared_projects
 user.visible_projects (user.projects + user.shared_projects)
 ```
 
-Implement model tests to ensure all these new methods are still working.
+Implement model tests to ensure all these new methods work as expected.
 
 
 ### User Following
@@ -42,19 +42,19 @@ user.followers (the users that are following user)
 user.following (the users that user is following)
 ```
 
-Implement the model tests to ensure these methods are working.
+Implement model tests to ensure these follow methods are working.
 
 
 ## Exercise 2 - Controller test
-Implement a controller with a share action in the projects controller. Implement its corresponding controller test.
-
+Implement a share action in the projects controller. For simplicity, add the form in the show view of projects.
+This form will have a popup menu showing the other users, so that user can pick one to share project with and click submit (share).
 
 ## Exercise 3 - Feature test
 Implement a feature test that:
 
 * logs in user (user1)
-* visit the project detail view
-* select a popup of users and select another user (user2) to share the project with
+* visit the project show view
+* select a user (user2) to share the project with, from the popup menu you implemented in the controller test
 * click submit to share the project with that user
 * log out user1
 * log in as user2
