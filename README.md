@@ -2,7 +2,8 @@
 
 This application consists of Projects that belong to Users.
 
-Users are able to share their Projects with other Users.
+After completing the exercises, Users should be able to share their Projects with other Users.
+Users should be able to follow other users as well.
 
 ## Exercise 1 - Model testing
 
@@ -51,14 +52,14 @@ Implement a controller with a share action in the projects controller. Implement
 ## Exercise 3 - Feature test
 Implement a feature test that:
 
-logs in user (user1)
-visits the project detail view
-selects a popup of users and selects another user (user2) to share the project with
-clicks submit to share the project with that user
-logs out user1
-logs in as user2
-visits the projects index page
-tests that user2 can view the project just shared in their listing
+* logs in user (user1)
+* visit the project detail view
+* select a popup of users and select another user (user2) to share the project with
+* click submit to share the project with that user
+* log out user1
+* log in as user2
+* visit the projects index page
+* test that user2 can view the project just shared in the user2 project listing view (you will need to modify the index action to include all visible projects for user2)
 
 ## Test Coverage
 Testing is at 100%. As you add these features, keep the testing at 100%
@@ -74,6 +75,15 @@ Users go from user_1 to user_10.
 
 ### Ruby, Rails
 This application is using Ruby 2.1.1 and Rails 4.1.1.
+
+### To get started
+```
+$ bundle
+$ rake db:create
+$ rake db:migrate
+$ rspec
+```
+
 
 
 
