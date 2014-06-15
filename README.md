@@ -37,9 +37,9 @@ user.follow(other_user)
 Add the following methods to user as well:
 
 ```
-user.followers (the users that are following user)
+user.followers (returns the users that are following user)
 
-user.following (the users that user is following)
+user.following (returns the users that user is following)
 ```
 
 Implement model tests to ensure these follow methods are working.
@@ -60,9 +60,6 @@ Implement a feature test that:
 * log in as user2
 * visit the projects index page
 * test that user2 can view the project just shared in the user2 project listing view (you will need to modify the index action to include all visible projects for user2)
-
-## Test Coverage
-Testing is at 100%. As you add these features, keep the testing at 100%
 
 ## Testing Gems
 This application uses Fabrication for fabricators, rspec for testing. For the integration test, you can optionally

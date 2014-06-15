@@ -1,19 +1,19 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/amorales/rails/sharing/app/helpers/application_helper.rb": [
+      "/Users/amorales/sharing/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/amorales/rails/sharing/app/helpers/projects_helper.rb": [
+      "/Users/amorales/sharing/app/helpers/projects_helper.rb": [
         1,
         null
       ],
-      "/Users/amorales/rails/sharing/app/helpers/sessions_helper.rb": [
+      "/Users/amorales/sharing/app/helpers/sessions_helper.rb": [
         1,
         null
       ],
-      "/Users/amorales/rails/sharing/app/controllers/projects_controller.rb": [
+      "/Users/amorales/sharing/app/controllers/projects_controller.rb": [
         1,
         1,
         null,
@@ -89,7 +89,7 @@
         null,
         null
       ],
-      "/Users/amorales/rails/sharing/app/controllers/application_controller.rb": [
+      "/Users/amorales/sharing/app/controllers/application_controller.rb": [
         1,
         null,
         null,
@@ -108,7 +108,7 @@
         1,
         null
       ],
-      "/Users/amorales/rails/sharing/app/controllers/sessions_controller.rb": [
+      "/Users/amorales/sharing/app/controllers/sessions_controller.rb": [
         1,
         1,
         null,
@@ -133,7 +133,7 @@
         null,
         null
       ],
-      "/Users/amorales/rails/sharing/app/models/project.rb": [
+      "/Users/amorales/sharing/app/models/project.rb": [
         1,
         null,
         1,
@@ -141,7 +141,7 @@
         null,
         null
       ],
-      "/Users/amorales/rails/sharing/app/models/user.rb": [
+      "/Users/amorales/sharing/app/models/user.rb": [
         1,
         1,
         1,
@@ -152,6 +152,6 @@
         null
       ]
     },
-    "timestamp": 1401281830
+    "timestamp": 1402842455
   }
 }
